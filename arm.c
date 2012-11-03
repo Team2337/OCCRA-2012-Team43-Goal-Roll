@@ -1,6 +1,7 @@
 #include "API.h" //EasyC API
 #include "arm.h"
 
+//Currently, no arm on robot - code will be kept, to potentially use later.
 
 void armRoutine(int armPower, char intake, char outtake)
 {

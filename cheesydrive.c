@@ -13,14 +13,14 @@ void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick,
     signed int pwmLeft = 0;
     signed int pwmRight = 0;
     
-    float fthrottle = (float)throttle;
+	unsigned int absThrottle = abs(throttle);
+    unsigned int absWheel = abs(wheel);
+	
+    float fthrottle = (float)absThrottle;
     fthrottle /= 127;
     
-    float fwheel = (float)wheel;
+    float fwheel = (float)absWheel;
     fwheel /= 127;
-    
-    unsigned int absThrottle = abs(throttle);
-    unsigned int absWheel = abs(wheel);
 
     throttle = (fthrottle)*throttle;
     wheel = (fwheel)*wheel;
