@@ -22,8 +22,8 @@ void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick,
     unsigned int absThrottle = abs(throttle);
     unsigned int absWheel = abs(wheel);
 
-    throttle = (fthrottle)*(fthrottle)*throttle;
-    wheel = (fwheel)*(fwheel)*wheel;
+    throttle = (fthrottle)*throttle;
+    wheel = (fwheel)*wheel;
 
     if(absThrottle<50)
     {
@@ -48,9 +48,9 @@ void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick,
     //PrintToScreen("\nLEFT %d ",pwmLeft); 
     //PrintToScreen("RIGHT %d ",pwmRight); 
 
-    SetMotor(2,-pwmLeft);
+    SetMotor(2,pwmLeft);
     SetMotor(3,pwmRight);
-    SetMotor(4,pwmRight);
+    SetMotor(4,-pwmRight);
 
 }//End DoCheesyDrive
 

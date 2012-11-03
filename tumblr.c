@@ -7,13 +7,13 @@ void tumblrRoutine(char tumblrPositionUp, char tumblrPositionDown)
 {
 	if(tumblrPositionUp)
 	{
-		SetMotor(8, 95);
+		SetMotor(5, 127);
 	else if (tumblrPositionDown)
 	{
-		SetMotor(8, -95);
+		SetMotor(5, -127);
 	}
 	else 
 	{
-         SetMotor(8,0);
+         SetMotor(5,0);
          }
 }
