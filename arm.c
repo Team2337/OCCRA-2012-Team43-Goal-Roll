@@ -1,44 +1,36 @@
 #include "API.h" //EasyC API
 #include "arm.h"
 
-//Currently, no arm on robot - code will be kept, to potentially use later.
+//Arm is driven by a PG71, intake/outtake is a KoP wheel epoxied onto a window motor
 
 void armRoutine(int armPower, char intake, char outtake)
 {
 	int absArmPower = abs(armPower);
-	float farmpower = (float)armPower;
+	float farmpower = (float)absArmPower;
 	farmpower /= 127;
 	
-	armPower = (farmpower)*(farmpower)*(armPower)/(absArmPower);
+	armPower = (farmpower)*armPower;
 	
-     SetMotor(4, armPower);
-     if(outtake)
-     {
-        SetMotor(5, -63);
-        SetMotor(6, -63);
-        SetMotor(7, -97);
-        
-     }
-     else if (intake)
-     {
-         SetMotor(5, 63);
-         SetMotor(6, 63);
-         SetMotor(7, 97);
-     }
-	 else
-	 {
-		 SetMotor(5, 0);
-   	     SetMotor(6, 0);
-   	     SetMotor(7, 0);
-	}
-}
-
-int abs(int x)
-{
-    if (x<0)
-    {
-       x = (-x);
+	if(absArmPower > 30)
+	{
+		SetMotor(5, armPower);
     }
-    
-     return x;
+	else
+	{
+		SetMotor(5, 0);
+	}
+	
+	if(outtake)
+    {
+       SetMotor(6, 127);
+        
+    }
+    else if (intake)
+    {
+        SetMotor(6, -127);
+    }
+	else
+	{
+		SetMotor(6, 0);
+	}
 }

@@ -1,8 +1,10 @@
 #include "API.h" //EasyC API
 #include "cheesydrive.h"
 //****** Thanks to OCCRA 33, retrofitted for OCCRA 43
-//**cheesyDrive(signed char throttle, signed char wheel, unsigned char quickTurn, signed char *pwmLeft, signed char *pwmRight)
-//******
+
+//Tuning parameters were set as RobotC variables, then passed on. Initially, it believed this would lead to better tuning.
+//Final values: turnQuick = 1.5, turnSpeed = 1.0
+
 void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick, unsigned char turnSpeed)
 {
 
@@ -21,7 +23,8 @@ void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick,
     
     float fwheel = (float)absWheel;
     fwheel /= 127;
-
+	
+	//Simple custom ramping algorithm
     throttle = (fthrottle)*throttle;
     wheel = (fwheel)*wheel;
 
@@ -44,10 +47,9 @@ void cheesyDrive(signed int throttle, signed int wheel, unsigned char turnQuick,
         pwmLeft = limitMotor((throttle + diff));
         pwmRight = limitMotor((throttle - diff));
     }//End SpeedTurn
-    
-    //PrintToScreen("\nLEFT %d ",pwmLeft); 
-    //PrintToScreen("RIGHT %d ",pwmRight); 
-
+	
+	//The left side of the drivetrain had a Y PWM cable, the right side did not.
+	
     SetMotor(2,pwmLeft);
     SetMotor(3,pwmRight);
     SetMotor(4,-pwmRight);

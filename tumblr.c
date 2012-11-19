@@ -7,15 +7,15 @@ void tumblrRoutine(char tumblrPositionUp, char tumblrPositionDown)
 {
 	if(tumblrPositionUp)
 	{
-		SetMotor(5, 127);
+		SetMotor(7, 127);
 	}
 	else if (tumblrPositionDown)
 	{
-		SetMotor(5, -127);
+		SetMotor(7, -127);
 	}
 	else 
 	{
-         SetMotor(5,0);
+         SetMotor(7,0);
     }
 }
 
@@ -29,10 +29,10 @@ void tumblrRoutineJoystick(int tumblrPosition)
 
 	if(tumblrPosition > 30)
 	{
-		SetMotor(5, tumblrPosition)
+		SetMotor(7, tumblrPosition)
 	}
-	else if 
+	else 
 	{
-		SetMotor(5, 0);
+		SetMotor(7, 0);
 	}
 }
