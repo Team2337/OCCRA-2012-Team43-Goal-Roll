@@ -1,18 +1,18 @@
-OCCRA-2012-Team43-Goll-Roll
+OCCRA-2012-Team43-Goal-Roll
 ===========================
 
-This is OCCRA Team 43, the Holly/Grand Blanc Bronchos, robot code for the 2012 Oakland County Competitive Robotics Association game, Goal Roll. The Holly Bronchos graciously invited the EngiNERDs to participate in OCCRA with them this year.
+This is OCCRA Team 43's, the Holly/Grand Blanc Bronchos', robot code for the 2012 Oakland County Competitive Robotics Association game, Goal Roll. The Holly Bronchos graciously invited the EngiNERDs to participate in OCCRA with them this year.
 
 OCCRA uses the IFI Vex Cortex microcontroller; our code was written for the EasyC V4 IDE for the Cortex. This code is nothing complicated in terms of an overarching structure: I hope it provides simple routines for OCCRA teams to take and use for the future.
 
-A robot picture ("robot.jpg") and official 2012 OCCRA Rules (file "OCCRA2012.doc") are included.
+A robot picture ("robot.jpg"), robot electrical box picture ("robotelectrical.jpg"), and official 2012 OCCRA Goal Roll Rules (file "OCCRA2012.doc") are included.
 
 Unfortunately, the EasyC project file is not up-to-date (until I regain access to a copy of the program).
 
 Robot and code features:
 ---------------------------
 ### Drivetrain
-* **Six wheel drive**, a center drop of roughly 1/8", middle and rear plaction wheels with FRC KoP front wheels, driven by four CIMs.
+* **Six wheel drive**, a center drop of roughly 1/8", middle and rear plaction wheels with FRC KoP front wheels, driven by four CIMs through AndyMark Toughboxes.
 * **Arcade drive code**, inspired by FRC 254 and built upon FRC/VRC/OCCRA 33.
 * Chassis was non-KoP, aluminum tubing H-style frame
 
