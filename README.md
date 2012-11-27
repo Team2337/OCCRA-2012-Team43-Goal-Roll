@@ -5,9 +5,11 @@ This is OCCRA Team 43's, the Holly/Grand Blanc Bronchos', robot code for the 201
 
 OCCRA uses the IFI Vex Cortex microcontroller; our code was written for the EasyC V4 IDE for the Cortex. This code is nothing complicated in terms of an overarching structure: I hope it provides simple routines for OCCRA teams to take and use for the future.
 
-A robot picture ("robot.jpg"), robot electrical box picture ("robotelectrical.jpg"), and official 2012 OCCRA Goal Roll Rules (file "OCCRA2012.doc") are included.
+A <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robot.jpg">robot picture</a>, <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robotelectrical.jpg">robot electrical box picture picture</a>, and <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/OCCRA2012.pdf">official 2012 OCCRA Goal Roll Rules</a> are included.
 
 Unfortunately, the EasyC project file is not up-to-date (until I regain access to a copy of the program).
+
+<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robot.jpg" alt="Smiley face" height="384" width="512">
 
 Robot and code features:
 ---------------------------
@@ -32,3 +34,5 @@ Robot and code features:
 * The team went through three electrical boxes this season
 * Finally settled on a large box that had room on the bottom for a large power distribution board, a raised platform for a Cortex, and seven Victors.
 * We recommend using a soldering iron to melt holes into the electrical box to mount components (a U-bolt for fastening down wires, perhaps the main breaker, access to the Cortex's USB port
+
+<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robotelectrical.jpg" alt="Smiley face" height="384" width="512">
