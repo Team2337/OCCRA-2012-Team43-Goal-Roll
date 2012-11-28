@@ -11,7 +11,7 @@ A <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/r
 
 Unfortunately, the EasyC project file is not up-to-date (until I regain access to a copy of the program).
 
-<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robot.jpg" alt="Smiley face" height="384" width="512">
+<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robot.jpg" alt="Robot" height="384" width="512">
 
 Robot and code features:
 ---------------------------
@@ -38,4 +38,4 @@ Robot and code features:
 * We recommend using a soldering iron to melt holes into the electrical box to mount components (a U-bolt for fastening down wires, perhaps the main breaker, access to the Cortex's USB port
 * We also used silicone to seal in the PWM connectors to the Cortex and to the Victors.
 
-<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robotelectrical.jpg" alt="Smiley face" height="384" width="512">
+<img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robotelectrical.jpg" alt="Electrical box" height="512" width="384">
