@@ -1,7 +1,9 @@
-OCCRA-2012-Team43-Goal-Roll
+Team 43 2012 OCCRA Code
 ===========================
 
 This is OCCRA Team 43's, the Holly/Grand Blanc Bronchos', robot code for the 2012 Oakland County Competitive Robotics Association game, Goal Roll. The Holly Bronchos graciously invited the EngiNERDs to participate in OCCRA with them this year.
+
+The robot placed eighth coming into the County Championship, was picked by the second seed, and went on to be quarterfinalists.
 
 OCCRA uses the IFI Vex Cortex microcontroller; our code was written for the EasyC V4 IDE for the Cortex. This code is nothing complicated in terms of an overarching structure: I hope it provides simple routines for OCCRA teams to take and use for the future.
 
