@@ -36,5 +36,6 @@ Robot and code features:
 * The team went through three electrical boxes this season
 * Finally settled on a large box that had room on the bottom for a large power distribution board, a raised platform for a Cortex, and seven Victors.
 * We recommend using a soldering iron to melt holes into the electrical box to mount components (a U-bolt for fastening down wires, perhaps the main breaker, access to the Cortex's USB port
+* We also used silicone to seal in the PWM connectors to the Cortex and to the Victors.
 
 <img src="https://raw.github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/master/robotelectrical.jpg" alt="Smiley face" height="384" width="512">
