@@ -7,7 +7,7 @@ The robot placed eighth coming into the County Championship, was picked by the s
 
 OCCRA uses the IFI Vex Cortex microcontroller; our code was written for the EasyC V4 IDE for the Cortex. This code is nothing complicated in terms of an overarching structure: I hope it provides simple routines for OCCRA teams to take and use for the future.
 
-A <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robot.jpg">robot picture</a>, <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robotelectrical.jpg">robot electrical box picture picture</a>, and <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/raw/improved-readme/OCCRA2012.pdf">official 2012 OCCRA Goal Roll Rules</a> are included.
+A <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robot.jpg">robot picture</a>, <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/blob/master/robotelectrical.jpg">robot electrical box picture picture</a>, and <a href="https://github.com/Team2337/OCCRA-2012-Team43-Goal-Roll/raw/OCCRA2012.pdf">official 2012 OCCRA Goal Roll Rules</a> are included.
 
 Unfortunately, the EasyC project file is not up-to-date (until I regain access to a copy of the program).
 
